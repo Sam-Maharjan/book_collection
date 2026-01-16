@@ -24,6 +24,5 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
 # book_collection
 >>>>>>> fbf3fce (first commit)
