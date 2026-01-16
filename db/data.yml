@@ -1,0 +1,26 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - 2026-01-16 19:39:35.717289000 Z
+    - 2026-01-16 19:39:35.717293000 Z
+
+---
+books:
+  columns:
+  - id
+  - title
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Book of Life
+    - 2026-01-16 19:40:46.970751000 Z
+    - 2026-01-16 19:40:46.970751000 Z
