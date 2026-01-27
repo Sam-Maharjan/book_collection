@@ -1,7 +1,11 @@
 <%= form_with(model: book) do |f| %>
+  <div><%= f.label :title %> <%= f.text_field :title %></div>
+  <div><%= f.label :author %> <%= f.text_field :author %></div>
+  <div><%= f.label :price %> <%= f.number_field :price, step: 0.01 %></div>
+
   <div>
-    <%= f.label :title %>
-    <%= f.text_field :title %>
+    <%= f.label :published_date %>
+    <%= f.date_select :published_date, start_year: 1900, end_year: Date.today.year %>
   </div>
 
   <%= f.submit %>

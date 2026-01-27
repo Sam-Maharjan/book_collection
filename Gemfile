@@ -63,3 +63,5 @@ group :test do
 end
 
 gem 'yaml_db'
+
+gem "rspec-rails", "~> 8.0", groups: [:development, :test]
