@@ -1,0 +1,9 @@
+{
+  "name": "book-collection",
+  "stack": "heroku-24",
+  "addons": ["heroku-postgresql"],
+  "buildpacks": [
+    { "url": "heroku/nodejs" },
+    { "url": "heroku/ruby" }
+  ]
+}
