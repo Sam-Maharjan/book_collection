@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+  <nav>
+    <%= link_to "User Books", user_books_path %> |
+    <%= link_to "Users", users_path %> |
+    <%= link_to "Books", books_path %>
+  </nav>
+  <hr>
   <head>
     <title><%= content_for(:title) || "Test App" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
