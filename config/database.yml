@@ -5,13 +5,17 @@ default: &default
 
 development:
   <<: *default
-  database: test_app_development
+  database: book_collection_development
 
 test:
   <<: *default
-  database: test_app_test
+  database: book_collection_test
 
 production:
   primary:
+    <<: *default
+    url: <%= ENV["DATABASE_URL"] %>
+
+  cable:
     <<: *default
     url: <%= ENV["DATABASE_URL"] %>
